@@ -6,7 +6,7 @@
 
 ### Крок 1: Встановлення Terraform
 
-Перед початком роботи встановили Terraform на комп'ютер  [офіційний сайт Terraform](https://www.terraform.io/downloads.html) 
+Перед початком роботи встановила Terraform на комп'ютер  [офіційний сайт Terraform](https://www.terraform.io/downloads.html). Також треба встановити AWS CLI, додати IAM User для terraform з потрібними permissions (ec2fullaccess, vpsfullaccess, iamSShKeyTransfer etc). Потім використала команду aws configure з credentials для попередньо створеного юзера. Додатково створила пару приватного-публічного ключів для мого комп'ютера і вористала цей ключ для створення серверів в подальшому.
 
 ### Крок 2: Налаштування Провайдера AWS
 
